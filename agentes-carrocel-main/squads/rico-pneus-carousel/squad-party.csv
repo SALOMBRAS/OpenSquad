@@ -1,0 +1,11 @@
+agent_id,name,title,execution,file
+researcher,Pedro Pauta,Pesquisa e ranking de temas,subagent,agents/researcher.agent.md
+seo-strategist,Sérgio SEO,Brief e otimizacao de caption,inline,agents/seo-strategist.agent.md
+content-creator,Carla Carrossel,Narrativa do carrossel e legenda,inline,agents/content-creator.agent.md
+content-reviewer,Renata Revisao,Revisao editorial,inline,agents/content-reviewer.agent.md
+background-designer,Patricia Panorama,Fundos e stock Unsplash/Pexels,inline,agents/background-designer.agent.md
+background-compositor,Eduardo Compositor,Composicao raster de fundo pre-texto,inline,agents/background-compositor.agent.md
+background-composite-reviewer,Helena Homologacao-Fundo,QA fundos compostos APPROVE/REJECT,inline,agents/background-composite-reviewer.agent.md
+cover-designer,Carlos Capa,Design da capa,inline,agents/cover-designer.agent.md
+carousel-designer,Diana Design,HTML e render JPEG HQ,inline,agents/carousel-designer.agent.md
+design-reviewer,Vicente Visual,Revisao visual final,inline,agents/design-reviewer.agent.md

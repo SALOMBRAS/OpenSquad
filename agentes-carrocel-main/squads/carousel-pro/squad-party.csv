@@ -1,0 +1,9 @@
+agent_id,name,title,execution,file
+researcher,Rafa Research,Pesquisa e ranking de temas,subagent,agents/researcher.agent.md
+seo-strategist,Sofia SEO,Brief e otimizacao de caption,inline,agents/seo-strategist.agent.md
+content-creator,Clara Copy,Narrativa do carrossel e legenda,inline,agents/content-creator.agent.md
+content-reviewer,Rita Review,Revisao editorial,inline,agents/content-reviewer.agent.md
+background-designer,Bia Backgrounds,Fundos visuais,inline,agents/background-designer.agent.md
+cover-designer,Caio Cover,Design da capa,inline,agents/cover-designer.agent.md
+carousel-designer,Dani Render,HTML e render JPG,inline,agents/carousel-designer.agent.md
+design-reviewer,Vini Visual QA,Revisao visual final,inline,agents/design-reviewer.agent.md

@@ -1,0 +1,22 @@
+squad:
+  code: carousel-pro
+  name: Carousel Pro
+  description: >
+    Squad neutro para pesquisar temas, criar copy, desenhar e renderizar
+    carrosseis completos em JPG com checkpoints obrigatorios de aprovacao.
+  icon: "🎠"
+  performance_mode: alta
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-focus-template.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/content-contracts.md
+  - pipeline/data/design-contracts.md
+  - pipeline/data/render-spec.md
+
+formats:
+  - instagram-feed

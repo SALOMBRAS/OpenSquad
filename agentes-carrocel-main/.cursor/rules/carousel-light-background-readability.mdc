@@ -1,0 +1,20 @@
+---
+description: Legibilidade em slides com fundo de imagem claro (Rico e carrosséis)
+globs:
+  - "**/rico-pneus-carousel/**"
+  - "**/slides/*.html"
+  - "**/squads/**/output/**/v*/slides/*.html"
+---
+
+# Texto sobre fundo de imagem claro
+
+Ao montar ou editar slides com **foto de fundo**:
+
+- Se a imagem for **muito clara** na zona do texto, garantir leitura **nítida** usando **ao menos uma** destas estratégias:
+  - **Texto escuro** na área que encosta no claro (título/corpo/CTA conforme o bloco), **ou**
+  - **Caixa ou painel** atrás do texto (fundo semitransparente escuro / vidro escuro) para manter **texto claro** só dentro da caixa, **ou**
+  - **Sombra / “fumaça”** — `text-shadow` em camadas, `drop-shadow`, scrim **local** só atrás do bloco (não véu desnecessário em tela cheia).
+
+- **Prioridade:** contraste e validade no export final (JPEG/HTML), não só “bonito no código”.
+
+- Documento alinhado ao squad Rico: `squads/rico-pneus-carousel/pipeline/data/carousel-layout-rules.md` (secção **Legibilidade — fundo claro vs texto**).

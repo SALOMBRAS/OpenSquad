@@ -1,0 +1,38 @@
+run_folder_name_from_title: true
+run_folder_rename_after_step: 10
+
+steps:
+  - step-01-research-focus
+  - step-02-research-rank-topics
+  - step-03-topic-selection
+  - step-04-seo-brief
+  - step-05-generate-angles
+  - step-06-angle-selection
+  - step-07-tone-selection
+  - step-08-cta-selection
+  - step-09-cover-headline-selection
+  - step-10-create-carousel-copy
+  - step-11-optimize-caption-seo
+  - step-12-editorial-review
+  - step-13-content-approval
+  - step-14-typography-approval
+  - step-15-logo-path-confirmation
+  - step-16-image-source-approval
+  - step-17-create-backgrounds
+  - step-18-create-cover
+  - step-19-render-html-jpg
+  - step-20-visual-review
+  - step-21-publish-approval
+
+checkpoints:
+  - step-01-research-focus
+  - step-03-topic-selection
+  - step-06-angle-selection
+  - step-07-tone-selection
+  - step-08-cta-selection
+  - step-09-cover-headline-selection
+  - step-13-content-approval
+  - step-14-typography-approval
+  - step-15-logo-path-confirmation
+  - step-16-image-source-approval
+  - step-21-publish-approval

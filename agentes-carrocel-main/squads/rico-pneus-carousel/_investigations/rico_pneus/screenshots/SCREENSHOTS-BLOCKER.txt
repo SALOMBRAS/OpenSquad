@@ -1,0 +1,10 @@
+Sherlock investigation (2026-03-24)
+
+No PNG screenshots were saved here because:
+1. Playwright MCP browser tools (browser_navigate / browser_take_screenshot) were not available in this agent session.
+2. Instagram profile grid at https://www.instagram.com/rico_pneus/ returns a login wall without an authenticated browser session.
+3. Direct download of post CDN JPEGs failed (URL signature / expiry).
+
+To populate this folder: run Opensquad with Playwright MCP enabled, log into Instagram once (persistent profile: _opensquad/_browser_profile), then capture:
+- profile-grid.png after browser_navigate to the profile
+- one PNG per opened post modal per sherlock.prompt.md paths under this directory

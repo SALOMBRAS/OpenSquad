@@ -1,0 +1,52 @@
+squad:
+  code: rico-pneus-carousel
+  name: Rico Pneus — Carrosséis Instagram
+  description: >
+    Squad para a Rico Pneus (Fortaleza): pesquisar temas, criar copy educativa e
+    atrativa, desenhar e renderizar carrosséis em JPG com checkpoints de aprovacao.
+    Foco em engajamento, presenca digital e leads (WhatsApp/loja). Nao inclui pneus de moto.
+  icon: "🛞"
+  performance_mode: alta
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/brand-rico-pneus.md
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+  - pipeline/data/stock-image-policy.md
+  - pipeline/data/mascot-character-policy.md
+  - pipeline/data/design-system-rico-pneus-colors.md
+  - pipeline/data/design-rico-pneus-typography-layout.md
+  - pipeline/data/carousel-branding-rico-pneus.md
+  - pipeline/data/design-system-instagram-regras-gerais.md
+  - pipeline/data/design-system-carousel-instagram.md
+  - pipeline/data/design-system-carousel-cover.md
+  - pipeline/data/carousel-layout-rules.md
+  - pipeline/data/carousel-visual-reference.md
+  - pipeline/data/carousel-infinite-background.md
+  - pipeline/data/research-focus-template.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/content-contracts.md
+  - pipeline/data/design-contracts.md
+  - pipeline/data/render-spec.md
+  - pipeline/data/background-compositing-spec.md
+  - pipeline/data/background-compositor-training.md
+  - pipeline/data/background-composite-reviewer-training.md
+
+formats:
+  - instagram-feed
+
+investigation:
+  enriched: partial
+  profiles_analyzed: 4
+  date: 2026-03-24
+  dir: squads/rico-pneus-carousel/_investigations
+  note: >
+    Pirelli e Continental sem amostra de posts; Michelin parcial; Rico Pneus com
+    analise parcial. Re-run Sherlock com Playwright para enriquecer.

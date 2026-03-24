@@ -1,0 +1,27 @@
+{
+  "squad": "rico-pneus-carousel",
+  "status": "running",
+  "step": {
+    "current": 21,
+    "total": 21,
+    "label": "step-21-publish-approval"
+  },
+  "agents": [
+    {"id": "researcher", "name": "Pedro Pauta", "icon": "🔍", "status": "done", "deliverTo": null, "desk": {"col": 1, "row": 1}},
+    {"id": "seo-strategist", "name": "Sérgio SEO", "icon": "📈", "status": "done", "deliverTo": null, "desk": {"col": 2, "row": 1}},
+    {"id": "content-creator", "name": "Carla Carrossel", "icon": "✍️", "status": "done", "deliverTo": null, "desk": {"col": 1, "row": 2}},
+    {"id": "content-reviewer", "name": "Renata Revisao", "icon": "✅", "status": "done", "deliverTo": null, "desk": {"col": 2, "row": 2}},
+    {"id": "background-designer", "name": "Patricia Panorama", "icon": "🖼️", "status": "done", "deliverTo": null, "desk": {"col": 1, "row": 3}},
+    {"id": "cover-designer", "name": "Carlos Capa", "icon": "🎨", "status": "done", "deliverTo": null, "desk": {"col": 2, "row": 3}},
+    {"id": "carousel-designer", "name": "Diana Design", "icon": "💎", "status": "done", "deliverTo": null, "desk": {"col": 1, "row": 4}},
+    {"id": "design-reviewer", "name": "Vicente Visual", "icon": "👁️", "status": "done", "deliverTo": null, "desk": {"col": 2, "row": 4}}
+  ],
+  "handoff": {
+    "from": "design-reviewer",
+    "to": "user",
+    "message": "JPEGs em v7/images; revisão visual em design-review.md — aprovar publicação (step 21).",
+    "completedAt": "2026-03-24T23:05:00.000Z"
+  },
+  "startedAt": "2026-03-24T17:32:59.000Z",
+  "updatedAt": "2026-03-24T23:05:00.000Z"
+}
